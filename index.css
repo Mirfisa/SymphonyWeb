@@ -304,6 +304,19 @@ footer {
     border-radius: 50%;
 }
 
+.socials button:active {
+    background-color: #7b40e8d2;
+    border: none;
+    color: white;
+    padding-right: 7px;
+    text-decoration: none;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width:1024px) {
     .CollectionDiv {
         grid-template-columns: 1fr 1fr;
