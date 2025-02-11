@@ -263,6 +263,47 @@ header {
     cursor: pointer;
 }
 
+
+/* footerpart */
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #0A0826;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerObjs {
+    width: 224px;
+    height: 110px;
+    text-align: center;
+}
+
+.footerObjs h1 {
+    font-size: 16px;
+}
+
+.footerObjs p {
+    font-size: 12px;
+}
+
+.socials button {
+    background-color: #351670d2;
+    border: none;
+    color: white;
+    padding-right: 7px;
+    text-decoration: none;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width:1024px) {
     .CollectionDiv {
         grid-template-columns: 1fr 1fr;
@@ -379,8 +420,6 @@ header {
         height: 270px;
         width: auto;
     }
-
-
 
     .TextParts {
         margin: 10px 50px;
