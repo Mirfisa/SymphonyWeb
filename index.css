@@ -216,6 +216,7 @@ header {
     right: auto;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .BottomMain img {
@@ -335,7 +336,7 @@ footer {
     }
 
     .headspace {
-        padding: 0px 5px;
+        padding: 0px 20px;
     }
 
     .MenuBar {
@@ -364,12 +365,17 @@ footer {
     .sponsors {
         flex-wrap: wrap;
     }
+
+    .cartIcon {
+        padding-left: 0px;
+    }
+
 }
 
 @media screen and (max-width:690px) {
 
     .headspace {
-        padding: 0px 5px;
+        padding: 0px 20px;
     }
 
     .MenuBar {
@@ -437,5 +443,9 @@ footer {
     .TextParts {
         margin: 10px 50px;
         text-align: center;
+    }
+
+    .cartIcon {
+        padding-left: 0;
     }
 }
