@@ -207,6 +207,55 @@ header {
     font-weight: 800;
 }
 
+/* bottomPart */
+
+.BottomMain {
+    padding: 50px 170px;
+    display: flex;
+    align-items: center;
+}
+
+.BottomMain img {
+    margin: 50px 80px;
+}
+
+.TextParts h1 {
+    font-weight: bold;
+    font-size: 38px;
+    color: #0A0826;
+}
+
+
+.TextParts p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.TextParts button {
+    font-family: "Poppins", serif;
+    background-image: linear-gradient(#E02C6D, #b40f4c);
+    color: white;
+    margin: 10px 0px;
+    padding: 10px, 24px;
+    border: none;
+    height: 44px;
+    width: 196px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.TextParts button:active {
+    background-image: linear-gradient(#510722, #ce1b5d);
+    color: white;
+    padding: 10px, 24px;
+    border: none;
+    height: 42px;
+    width: 194px;
+    cursor: pointer;
+}
+
 @media screen and (max-width:1024px) {
     .CollectionDiv {
         grid-template-columns: 1fr 1fr;
