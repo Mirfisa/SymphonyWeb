@@ -137,7 +137,9 @@ header {
 }
 
 .CollectionDiv {
-    padding: 25px 170px;
+
+    left: auto;
+    right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -210,19 +212,23 @@ header {
 /* bottomPart */
 
 .BottomMain {
-    padding: 50px 170px;
+    left: auto;
+    right: auto;
     display: flex;
     align-items: center;
 }
 
 .BottomMain img {
     margin: 50px 80px;
+    height: 270px;
+    width: auto;
 }
 
 .TextParts h1 {
     font-weight: bold;
     font-size: 38px;
     color: #0A0826;
+    padding-right: 20px;
 }
 
 
@@ -230,6 +236,7 @@ header {
     font-weight: bold;
     font-size: 16px;
     color: #6C6C6C;
+    padding-right: 20px;
 }
 
 .TextParts button {
@@ -259,11 +266,19 @@ header {
 @media screen and (max-width:1024px) {
     .CollectionDiv {
         grid-template-columns: 1fr 1fr;
-        padding: 25px 10px;
+        left: auto;
+        right: auto;
     }
 }
 
 @media screen and (max-width:940px) {
+
+
+    .BottomMain img {
+        margin: 50px 80px;
+        height: 200px;
+        width: auto;
+    }
 
     .headspace {
         padding: 0px 5px;
@@ -346,12 +361,29 @@ header {
 
     .CollectionDiv {
         grid-template-columns: 1fr;
-        padding: 25px 60px;
+        left: auto;
+        right: auto;
     }
 
     .seeMore {
         padding: 5px 50px;
         display: flex;
         justify-content: right;
+    }
+
+    .BottomMain {
+        flex-direction: column-reverse;
+    }
+
+    .BottomMain img {
+        height: 270px;
+        width: auto;
+    }
+
+
+
+    .TextParts {
+        margin: 10px 50px;
+        text-align: center;
     }
 }
